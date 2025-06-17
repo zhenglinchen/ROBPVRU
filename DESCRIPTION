@@ -1,0 +1,18 @@
+Package: ROBPVRU
+Title: R package for conducting PVR with robust estimators and union eigenvector sets
+Version: 0.0.0.9000
+Authors@R: 
+    person("Zhenglin", "Chen", , "chenzl@mail.bnu.edu.cn", role = c("aut", "cre"))
+Depends: 
+    MASS,
+    L1pack,
+    robust,
+    PVR,
+    R (>= 3.5)
+Description: ROBPVRU includes the functions for selecting the union of eigenvectors sets, and conducting PVR with various estimators (L1,S,M,MM).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+LazyData: true
